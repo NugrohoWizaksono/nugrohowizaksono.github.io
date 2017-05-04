@@ -12,15 +12,44 @@
     <title>Nugroho Wizaksono</title>
 </head>
 <body>
-    <!--    sidenav-->
-    <ul class="side-nav" id="slide-out">
-        <li><a href="#apaomb" style="font-size: 20px; padding-left: 30px;">ABOUT</a></li>
-        <li><a href="#goals" style="font-size: 20px; padding-left: 30px;">GOALS</a></li>
-        <li><a href="#steps" style="font-size: 20px; padding-left: 30px;">STEPS</a></li>
-        <li><a href="#luck" style="font-size: 20px; padding-left: 30px;">LUCKY PRIZES</a></li>
-        <li><a href="#tips" style="font-size: 20px; padding-left: 30px;">TIPS</a></li>
-        <li><a href="#apps" style="font-size: 20px; padding-left: 30px;">APP</a></li>        
-        <li><a href="#TS" style="font-size: 20px; padding-left: 30px;">Talent Seeker</a></li>
+    <!--sidebar-->
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="userView">
+                <div class="background">
+                    <img src="image/47078378-flat-wallpaper.jpg">
+                </div>
+                <div class="row valign-wrapper" style="margin-bottom: 0;">
+                    <div class="col-4">
+                        <a href="#!user"><img class="circle responsive-img" src="image/me.jpg"></a>
+                    </div>
+                    <div class="col-8">
+                        <a href="#!name"><span class="white-text name">Nugroho Wizaksono</span></a>
+                        <a href="#!email"><span class="white-text email">WEB DEVELOPER</span></a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header"><i class="material-icons right">arrow_drop_down</i>Dropdown</a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="#!">First</a></li>
+                    <li><a href="#!">Second</a></li>
+                    <li><a href="#!">Third</a></li>
+                    <li><a href="#!">Fourth</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+        </li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
     </ul>
     
     <nav style="background-color: transparent;">
@@ -32,7 +61,7 @@
         </div>
     </nav>
     <!--page1-->
-    <img src="image/E1zNNaX.jpg" alt=""  class="responsive-img" style="margin-top: -70px;"/>
+    <img src="image/E1zNNaX.jpg" alt=""  class="responsive-img" style="margin-top: -64px;"/>
     <div class="white">
         aabr <br />
         aabr <br />
